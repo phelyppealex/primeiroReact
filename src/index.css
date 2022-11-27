@@ -1,3 +1,4 @@
+/*
 *{
   text-decoration: none;
 }
@@ -104,4 +105,52 @@ html{
   object-fit: cover;
   margin: 2em;
   box-shadow: 0 0 .25em;
+}*/
+
+*{
+  text-decoration: none;
+  padding: none;
+  margin: 0;
+}
+html{
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* CABEÇALHO */
+.cabecalho{
+  height: 5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+}
+.logo{
+  height: 100%;
+}
+.logo div{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width:max-content;
+  margin: auto;
+}
+.logo div a{
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+/* BARRA DE NOTICIAS */
+.barraNoticias{
+  width: 100%;
+  margin-top: 1em;
+}
+.card{
+  width: calc(100% - 2em);
+  margin: 0 auto;
+}
+.card a img{
+  height: 13em;
+  width: 100%;
+  object-fit: cover;
 }
