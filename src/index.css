@@ -158,4 +158,27 @@ html{
   .barraNoticias{
     padding-top: 1.5em;
   }
+  
+  .card a img{
+    height: 8em;
+  }
+}
+
+@media only screen and (min-width: 1080px){
+  .card a img{
+    height: 10em;
+  }
+}
+
+@media only screen and (min-width: 1380px){
+  
+  .card a img{
+    height: 14em;
+  }
+  .grid-container{
+    grid-template-areas: 
+      'header header    header    header    header    header header'
+      'menu   menu principal principal principal principal principal'
+      'menu   menu    footer    footer    footer    footer footer';
+  }
 }
